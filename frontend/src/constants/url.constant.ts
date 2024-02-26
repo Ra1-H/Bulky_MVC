@@ -1,0 +1,1 @@
+export const baseUrl="https://localhost:7020/api/Products";

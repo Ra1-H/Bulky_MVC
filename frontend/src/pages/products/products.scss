@@ -1,0 +1,27 @@
+@import "../../_mixins.scss";
+
+.prducts {
+  @include main-style();
+
+
+}
+.table-wrapper {
+    margin-top: 10px;
+    width: 100%;
+    overflow-x: auto;
+    border: 1px solid hsla(0, 0%, 36%, 0.682);
+    box-shadow: 0 0 30px 2px #818181ae;
+    border-radius: 12px;
+    padding: 1rem;
+  }
+
+  table{
+    width:100%;
+    
+
+    td,th{
+        border:1px solid rgb(212, 212, 212);
+        border-radius: 6px;
+        text-align: center;
+    }
+  }
